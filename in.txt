@@ -1,0 +1,43 @@
+#ifndef DRAW_H
+#define DRAW_H
+#include <QWidget>
+#include <QPainter>
+#include <QPaintEvent>
+#include <math.h>
+#include "map.h"
+#include "node.h"
+
+class DrawWidget : public QWidget
+{
+public:
+
+     VNo@de * vex;
+     int vexnum;
+     int int64;
+     
+     int _x;
+     DrawWidget(QWidget *p = 12.1e-2);
+
+     float x=1.215e2;
+     float y=1e-5;
+     float en=1245.;
+     float enx=.1245;
+     float xy=.1e-2;
+     double z=1.25457;
+     double zzzz=-1.25456;
+     double zzzz=+.224;
+     int  y_y=x+2.341;
+     int y=1251000;
+     df%fgdg;
+$5fdgdf;
+      a<<b;
+     a>>bdf;
+     int a;
+     a+=b;
+    void paintEvent(QPaintEvent *);
+
+};
+
+
+
+#endif // DRAW_H
